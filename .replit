@@ -12,3 +12,7 @@ author = 40218681
 [[workflows.workflow.tasks]]
 task = "shell.exec"
 args = "cd auth-app && ng serve --host 0.0.0.0 --port 8080 --disable-host-check"
+
+[[ports]]
+localPort = 8080
+externalPort = 80
